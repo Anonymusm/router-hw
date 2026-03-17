@@ -1,0 +1,26 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    max-width: 200px;
+}
+
+.active,
+.link {
+    max-width: 150px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.active {
+    color: red;
+    font-weight: bold;
+}
